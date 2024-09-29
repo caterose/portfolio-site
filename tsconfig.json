@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["node"], // TAKE THIS OUT IF NECESSARY
     "target": "es5",
     "lib": [
       "dom",
