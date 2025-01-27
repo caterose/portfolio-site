@@ -1,0 +1,85 @@
+@import url('../../index.css');
+
+.card-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    min-width: 250px;
+    max-width: 800px;
+}
+
+.carousel-slide {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: green; */
+    
+}
+
+.carousel .nav-button-wrapper {
+  background: transparent !important;
+  color: transparent !important;
+  padding: 0px;
+  position: 0;
+  /* background-color: blue; */
+}
+
+.carousel .nav-button-wrapper:hover {
+  background: transparent !important;
+  color: transparent !important;
+}
+
+.carousel .nav-button-wrapper:hover .nav-button {
+  /* background-color: var(--primary-purple); */
+  filter: unset;
+  opacity: unset;
+}
+
+.carousel .nav-button {
+  background-color: blue;
+}
+
+.carousel .nav-button:hover {
+  background-color: var(--primary-purple);
+}
+
+.carousel .active-indicator-icon-button {
+  background-color: blue !important;
+  color: var(--primary-purple) !important;
+}
+
+.carousel .active-indicator-icon-button:hover {
+  color: var(--primary-purple) !important;
+  background-color: var(--primary-purple) !important;
+}
+
+.carousel .indicator-icon-button {
+  background-color: transparent !important;
+  /* color: var(--neutral-white); */
+  margin: 3px;
+}
+
+.carousel .indicator-icon-button:hover {
+  /* background-color: transparent !important; */
+  background-color: red;
+  /* color: var(--primary-purple); */
+  margin: 3px;
+}
+
+.carousel .indicator-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* .carousel .carousel-image {
+  object-fit: cover;
+  width: 100%;
+  min-width: 250px;
+  max-width: 620px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+} */

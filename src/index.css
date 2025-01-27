@@ -16,6 +16,7 @@
   --line-height-expanded: 150%;
 
   background-color: var(--neutral-white);
+  /* background-color: #008000; */
   font-family: Literata, sans-serif;
   line-height: normal; /* 1.2-1.5 depending on the broswer */
   font-weight: normal; /* 400 */

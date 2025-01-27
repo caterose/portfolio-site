@@ -1,1 +1,23 @@
 @import url('../../index.css');
+
+.experience-card {
+    width: 200px;
+    height: 200px;
+    border: solid 1px blue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+.title{
+    border: solid 2px red;
+}
